@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @ludiwangfpga
-## 👀 I’m interested in ...
+## 👀 I’m interested in fpga
 - 🌱 I’m currently learning c++ and fpga.
 ## 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me ...lulululudi1994@gmail.com
