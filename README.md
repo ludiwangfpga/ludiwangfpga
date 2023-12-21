@@ -29,10 +29,16 @@ path/*.jpg # ワイルドカード
 'https://youtu.be/Zgi9g1ksQHc' # YouTube
 'rtsp://example.com/media.mp4'
 ```
-コマンド：docker ps
-コマンド：docker exec -it 067e3044971f /bin/bash
-コマンド：cd runs/detect/exp/
-コマンド：exit
-コマンド：docker cp 067e3044971f:app/runs/detect/exp/1.mp4 /home/wang/docker/
-
+## 第四ステップ：ローカルコンピュータに保存する
+```bash
+コマンド docker ps を使用してIDを確認してください（Dockerコンテナを終了しないでください）。 
+067e3044971f を自分のIDに置き換えて、コマンド docker exec -it 067e3044971f /bin/bash を実行します。
+コマンドを使用して生成されたファイルの場所を確認できます。生成されたファイルをローカルにコピーします。
+```
+docker ps
+docker exec -it 067e3044971f /bin/bash
+cd runs/detect/exp/
+exit
+docker cp 067e3044971f:app/runs/detect/exp/1.mp4 /home/wang/docker/
+![image](https://github.com/ludiwangfpga/ludiwangfpga/blob/main/%E5%9B%BE%E7%89%873.png)
 
