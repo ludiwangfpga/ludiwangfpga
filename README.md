@@ -1,4 +1,4 @@
-```bash
+
 docker pull ludiwangfpga/yolo:v7
 ![image](https://github.com/ludiwangfpga/ludiwangfpga/blob/main/%E5%9B%BE%E7%89%871.png)
 
@@ -9,5 +9,5 @@ docker exec -it 067e3044971f /bin/bash
 cd runs/detect/exp/
 exit
 docker cp 067e3044971f:app/runs/detect/exp/1.mp4 /home/wang/docker/
-```
+
 
