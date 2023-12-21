@@ -17,6 +17,8 @@
 
 ```
 ## 第三ステップ：選択
+![image](https://github.com/ludiwangfpga/ludiwangfpga/blob/main/%E5%9B%BE%E7%89%873.png)
+### 1.mp4を使用してドアノブを識別する方法を図に示します。
 ```bash
 サポートされている入力形式は以下の通りです：
 0 # ウェブカメラ
