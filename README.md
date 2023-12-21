@@ -40,5 +40,4 @@ docker exec -it 067e3044971f /bin/bash
 cd runs/detect/exp/
 exit
 docker cp 067e3044971f:app/runs/detect/exp/1.mp4 /home/wang/docker/
-![image](https://github.com/ludiwangfpga/ludiwangfpga/blob/main/%E5%9B%BE%E7%89%873.png)
-
+![image](https://github.com/ludiwangfpga/ludiwangfpga/blob/main/%E5%9B%BE%E7%89%874.png)
