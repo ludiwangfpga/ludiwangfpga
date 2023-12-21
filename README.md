@@ -13,7 +13,7 @@
 カメラを呼び出すためのコマンドに「--device=/dev/video0」を追加します。
 -vの後には1.ptと1.mp4のファイルがあるディレクトリを指定し、ディレクトリの後に「:/app/1.pt」を追加します。
 単一の画像またはフォルダ全体の画像を認識する必要がある場合は、同様にアップロードできます。
-![image](https://github.com/ludiwangfpga/ludiwangfpga/blob/main/%E5%9B%BE%E7%89%872.png width="200" height="150")
+![image](https://github.com/ludiwangfpga/ludiwangfpga/blob/main/%E5%9B%BE%E7%89%872.png)
 docker ps
 docker exec -it 067e3044971f /bin/bash
 cd runs/detect/exp/
